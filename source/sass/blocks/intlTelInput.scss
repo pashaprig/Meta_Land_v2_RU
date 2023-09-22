@@ -707,8 +707,9 @@
     bottom: 1px;
     display: flex;
     align-items: center;
-    height: 45px;
+    height: 39px;
     padding: 0 6px 0 8px;
+    border-radius: 10px;
 }
 .iti__arrow {
     margin-left: 6px;
@@ -812,13 +813,12 @@ input[type="tel"] {
     background-color: transparent;
 }
 .iti--separate-dial-code .iti__selected-flag {
-    max-height: 45px;
-    padding: 22px 10px;
+    max-height: 39px;
     font-size: 15px;
     font-weight: 400;
     color: #757575;
-    border-radius: 4px;
-    border: 1px solid #e8e9e9;
+    border-radius: 10px;
+    border: none;
     background-color: white;
 }
 .iti--separate-dial-code .iti__selected-dial-code {
