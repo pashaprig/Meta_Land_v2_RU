@@ -1,0 +1,30 @@
+.info {
+  padding: 45px;
+  margin-bottom: 100px;
+  text-align: center;
+  background: no-repeat 50% url("../img/bcg/info-bcg.webp");
+
+  @media (max-width: $tablet-width) {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    background: no-repeat 50% url("../img/bcg/info-bcg-mob.webp");
+  }
+}
+
+.info__heading {
+  color: $main-color;
+
+  @media (max-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 1;
+  }
+}
+
+.info__about {
+  padding: 0 110px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0;
+  }
+}

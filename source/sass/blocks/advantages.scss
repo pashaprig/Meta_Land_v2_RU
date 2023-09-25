@@ -54,7 +54,6 @@
   width: 90px;
   height: 90px;
   margin-bottom: 30px;
-  padding: 10px;
 
   &--meta {
     background-image: url('../img/icons/meta.svg'), url("../img/bcg/advantages-item-bcg.webp");
@@ -75,6 +74,9 @@
   }
 
   @media (max-width: $tablet-width) {
+    width: 72px;
+    height: 72px;
     margin-bottom: 15px;
+    background-size: contain;
   }
 }

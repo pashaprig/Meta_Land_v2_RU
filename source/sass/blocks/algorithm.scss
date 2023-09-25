@@ -1,0 +1,36 @@
+.algorithm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 145px;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
+
+.algorithm__heading {
+  line-height: 1;
+
+  @media (max-width: $tablet-width) {
+    font-size: 32px;
+  }
+}
+
+.algorithm__about {
+  padding-right: 60px;
+
+  @media (max-width: $tablet-width) {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.algorithm__img {
+  border-radius: 20px;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    height: auto;
+  }
+}

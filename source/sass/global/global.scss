@@ -46,19 +46,6 @@ button {
   overflow: hidden;
 }
 
-.desktop-only {
-  @media (max-width: $tablet-width) {
-    display: none !important;
-  }
-}
-
-.mobile-only {
-  display: none;
-  @media (max-width: $tablet-width) {
-    display: flex;
-  }
-}
-
 .btn {
   box-sizing: border-box;
   display: flex;
@@ -83,6 +70,15 @@ button {
   &:active {
     opacity: 0.8;
   }
+
+  &--reverse-color {
+    color: $basic-white;
+    background-color: $main-color;
+
+    &:hover {
+      background-color: $main2-color;
+    }
+  }
 }
 
 .container {
@@ -97,7 +93,7 @@ button {
 
 .heading {
   margin-bottom: 30px;
-  font-family: "Raleway", "Arial", sans-serif;
+  font-family: "Proxima Nova", "Arial", sans-serif;
   font-size: 48px;
   font-weight: 700;
 
@@ -108,5 +104,18 @@ button {
 
   @media (max-width: $tablet-width) {
     font-size: 24px;
+  }
+}
+
+.desktop-only {
+  @media (max-width: $tablet-width) {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  display: none;
+  @media (max-width: $tablet-width) {
+    display: flex;
   }
 }
