@@ -4,13 +4,13 @@
   flex-direction: column;
   min-height: 680px;
   padding-top: 34px;
-  background-image: url("../img/bcg/promo-bcg.webp");
+  background-image: url("../img/bcg/gradient-bcg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 
   @media (max-width: $tablet-width) {
     min-height: 100vh;
-    background-image: url("../img/bcg/promo-bcg-mob.webp");
+    background-image: url("../img/bcg/gradient-bcg-mob.webp");
   }
 }
 

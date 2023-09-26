@@ -1,5 +1,6 @@
 .algorithm {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 145px;
 
@@ -7,6 +8,10 @@
     flex-direction: column;
     margin-bottom: 60px;
   }
+}
+
+.algorithm__wrapper {
+  max-width: 57%;
 }
 
 .algorithm__heading {

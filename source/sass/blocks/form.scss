@@ -1,4 +1,5 @@
 .form {
+  z-index: 1;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -33,6 +34,7 @@
   display: flex;
   gap: 15px;
   align-items: start;
+  text-align: left;
 }
 
 input {
@@ -46,6 +48,10 @@ input {
   border: none;
   background: $basic-white;
   border-radius: 10px;
+
+  &.error {
+    border: 1px solid #E70000;
+  }
 }
 
 .form_message.error.inactive {
@@ -58,16 +64,19 @@ input {
 }
 
 .error {
-  color: #831b1b;
-  border-color: #831b1b !important;
+  color: #E70000;
+  border-color: #E70000 !important;
+  background: #FFB2B2;
 }
 
 label.error {
-  margin-top: -25px;
-  text-align: right;
+  width: fit-content;
+  margin-bottom: 0;
+  padding: 0 3px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
+  border-radius: 3px;
 }
 
 #phone1-error,

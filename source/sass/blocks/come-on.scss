@@ -2,23 +2,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: $basic-white;
-  background: $main-color no-repeat 100% 100% url("../img/bcg/come-on-bcg.png");
-  background-size: contain;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: $input-color;
+  text-align: center;
+  background: no-repeat 50% url("../img/bcg/come-on-bcg.webp");
 
   @media (max-width: $tablet-width) {
-    background: $main-color no-repeat 10% 100% url("../img/bcg/come-on-bcg.png");
-    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: no-repeat 50% url("../img/bcg/come-on-bcg-mob.webp");
+  }
+}
 
-    .come-on__heading,
-    .come-on__about {
-      text-align: center;
-    }
+.come-on__heading {
+  padding: 0 80px;
+
+  @media (max-width: $tablet-width) {
+    text-align: left;
+    font-size: 32px;
+    line-height: 1;
+    padding: 0;
+    padding-right: 50px;
   }
 }
 
 .come-on__about {
   margin-bottom: 40px;
+
+  @media (max-width: $tablet-width) {
+    text-align: left;
+  }
 }
